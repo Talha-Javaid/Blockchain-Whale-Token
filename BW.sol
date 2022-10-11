@@ -702,5 +702,7 @@ contract BlockchainWhale is ERC20, ERC20Burnable, Ownable {
         _mint(to, amount);
     }
 
-    function get() public view returns (bool) {}
+    function get() public pure returns (bool) {
+        return true;
+    }
 }
